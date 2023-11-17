@@ -61,9 +61,8 @@ a {
 #letters .line {
     border-bottom-width: 8px;
     border-bottom-style: solid;
-    border-color: #ff7474;
+    border-color: #01abdf;
     width: 0.01%;
-
     opacity: 0;
 }
 
