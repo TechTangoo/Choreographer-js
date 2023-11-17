@@ -1,27 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Inconsolata|Playfair+Display|Rubik">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Choreographer-js</title>
+    <meta name="description" content="A simple library to take care of complex CSS animations." />
+    <meta property="og:image" content="./assets/screenshot.png" />
+
 </head>
 
 <body>
-    <div>
-        <p id="a">T</p>
-        <p id="b">e</p>
-        <p id="c">c</p>
-        <p id="d">h</p>
-        <p id="e">T</p>
-        <p id="f">a</p>
-        <p id="g">n</p>
-        <p id="h">g</p>
-        <p id="i">o</p>
-        <p id="j">o</p>
+
+    <div id="wrapper">
+        <div id="letters">
+            <div class="c">T</div>
+            <div class="h">e</div>
+            <div class="r">c</div>
+            <div class="e">h</div>
+            <div class="g">T</div>
+            <div class="r">a</div>
+            <div class="a">n</div>
+            <div class="p">g</div>
+            <div class="o">o</div>
+            <div class="o">o</div>
+
+            <br />
+            <div class="line"></div>
+
+        </div>
+        <div class="scroll-overlay"></div>
     </div>
-    <script type="text/javascript" src="./script.js"></script>
+
+    <div class="links">
+
+    </div>
+
+    <div class="scroll-down">
+        <p>scroll down</p>
+        <div class="down-arrow"></div>
+    </div>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
