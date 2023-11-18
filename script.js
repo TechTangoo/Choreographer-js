@@ -349,6 +349,7 @@ function calculateAnimations() {
         /* animate Cs */
         { range: [-1, fin * 0.5], selector: '.c', type: 'scale', style: 'transform:translateY', from: 0, to: 25, unit: 'px' },
         { range: [fin * 0.5, fin], selector: '.c', type: 'scale', style: 'transform:translateY', from: 25, to: 0, unit: 'px' },
+        { range: [-1, fin * 0.5], selector: '.c', type: 'scale', style: 'transform:scale', from: 1, to: 2 },
         { range: [fin * 0.4, fin], selector: '.c', type: 'change', style: 'color', to: '#ffb515' },
 
         /* animate Hs */
